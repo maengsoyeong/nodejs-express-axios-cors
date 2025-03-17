@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const response = await fetch('http://localhost:3000', {
           method: 'PUT',
           headers: {
-            'Content-Type': 'text/plain',
+            'Content-Type': 'application/json',
           },
           body: newMessage,
         });
