@@ -9,7 +9,7 @@ const PORT = 3000;
 let data = { message: '여러분 화이팅!' };
 
 app.use(cors({
-  origin: "http://127.0.0.1:9000",
+  origin: "http://127.0.0.1:5500",
   methods: ['OPTIONS', 'POST', 'GET', 'PUT', 'DELETE'],
 }))
 
